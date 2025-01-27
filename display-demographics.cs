@@ -1,9 +1,4 @@
-// Online C# Editor for free
-// Write, Edit and Run your C# code using C# Online Compiler
-
-using System;
-
-public class Display-Demographics
+public class display-demographics
 {
     public static void Main(string[] args)
     {
