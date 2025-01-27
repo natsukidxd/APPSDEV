@@ -44,12 +44,12 @@ public class Calculator
         Console.WriteLine (name);
         Console.WriteLine("Enter two number below.");
         Console.Write("Num 1: ");
-        int num1 = Convert.ToInt32(Console.ReadLine());
+        double num1 = Convert.ToDouble(Console.ReadLine());
         Console.Write("Num 2: ");
-        int num2 = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Select an operator [+ - / * % ] : ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Select an operator [+ - / * % ] : ");
         char op = Convert.ToChar(Console.ReadLine());
-        int result = 0;
+        double result = 0;
         
         switch(op) {
             case '+' : {
