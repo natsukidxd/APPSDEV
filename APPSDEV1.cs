@@ -3,7 +3,7 @@
 
 using System;
 
-public class HelloWorld
+public class Display-Demographics
 {
     public static void Main(string[] args)
     {
@@ -36,7 +36,7 @@ public class HelloWorld
 
 using System;
 
-public class HelloWorld
+public class Calculator
 {
     public static void Main(string[] args)
     {
@@ -75,5 +75,23 @@ public class HelloWorld
         }
         
         Console.WriteLine(num1 + " " + op + " " + num2 + " = " + result);
+    }
+}
+
+public class FactChecker {
+
+    public static void Main(string[] args)
+    {
+        Console.Write("Enter a string: ");
+        string userString = Console.ReadLine();
+        Console.Write("Enter a integer: ");
+        int userInt = Convert.ToInt32(Console.ReadLine());
+        int stringToInt = Convert.ToInt32(userString);
+        
+        if(stringToInt == userInt){
+            Console.WriteLine("Krist Dave B. Ferrer");
+        } else {
+            Console.WriteLine("22");
+        }
     }
 }
