@@ -1,4 +1,4 @@
-public class display-demographics
+public class DisplayDemographics
 {
     public static void Main(string[] args)
     {
