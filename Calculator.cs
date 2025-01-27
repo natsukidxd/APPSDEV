@@ -34,6 +34,10 @@ public class Calculator
                 result = num1 % num2;
                 break;
             }
+            default : {
+                Console.WriteLine("Invalid input");
+                break;
+            }
         }
         
         Console.WriteLine(num1 + " " + op + " " + num2 + " = " + result);
