@@ -1,5 +1,3 @@
-using System.Globalization;
-
 public class ATM {
     
     public static void Main(string[] args) {
